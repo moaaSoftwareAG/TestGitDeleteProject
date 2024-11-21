@@ -8,6 +8,10 @@ packages:
   gitUsername: moaaSoftwareAG
   gitBranch: main
 services:
+- serviceName: project.testgitdelete.integrations:edgeFlow_2
+  packages:
+  - name: TestGitDeleteProject
+    version: "1.0"
 - serviceName: project.testgitdelete.integrations:edgeFlow1
   packages:
   - name: TestGitDeleteProject
